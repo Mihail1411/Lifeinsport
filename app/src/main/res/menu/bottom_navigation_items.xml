@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_LastNews"
+        android:icon="@drawable/ic_lastnews_foreground"
+        android:title="@string/LastNews" />
+    <item
+        android:id="@+id/action_table"
+        android:icon="@drawable/ic_assingment_foreground"
+        android:title="@string/table" />
+    <item
+        android:id="@+id/action_mygame"
+        android:icon="@drawable/ic_assingment_foreground"
+        android:title="@string/mygame"/>
+    <item
+        android:id="@+id/action_myteam"
+        android:icon="@drawable/ic_table_foreground"
+        android:title="@string/myteam"/>
+    <item
+        android:id="@+id/action_calendar"
+        android:icon="@drawable/ic_calendar_foreground"
+        android:title="@string/calendar"/>
+
+
+
+
+
+</menu>

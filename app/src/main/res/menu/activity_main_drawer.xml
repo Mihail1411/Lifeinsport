@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_LastNews"
+            android:icon="@drawable/ic_lastnews_foreground"
+            android:title="@string/LastNews" />
+
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/ic_assingment_foreground"
+            android:title="@string/table" />
+        <item
+            android:id="@+id/nav_mygame"
+            android:icon="@drawable/ic_assingment_foreground"
+            android:title="@string/mygame" />
+        <item
+            android:id="@+id/nav_myteam"
+            android:icon="@drawable/ic_table_foreground"
+            android:title="@string/myteam" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_calendar_foreground"
+            android:title="@string/calendar" />
+
+
+
+    </group>
+
+    <item android:title="@string/Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_tennis"
+                android:icon="@drawable/tabletennis"
+                android:title="@string/tennis" />
+            <item
+                android:id="@+id/nav_footbal"
+                android:icon="@drawable/footbal01"
+                android:title="@string/footbal" />
+            <item
+                android:id="@+id/nav_basketball"
+                android:icon="@drawable/basketballcourt"
+                android:title="@string/basketball" />
+            <item
+                android:id="@+id/nav_valeybal"
+                android:icon="@drawable/volleyball"
+                android:title="@string/valeybal" />
+            <item
+                android:id="@+id/nav_UFC"
+                android:icon="@drawable/fight"
+                android:title="@string/UFC" />
+            <item
+                android:id="@+id/nav_formula"
+                android:icon="@drawable/car"
+                android:title="@string/formula" />
+            <item
+                android:id="@+id/nav_motosport"
+                android:icon="@drawable/bike"
+                android:title="@string/motosport" />
+            <item
+                android:id="@+id/nav_usfootball"
+                android:icon="@drawable/rugby"
+                android:title="@string/USfootbal" />
+            <item
+                android:id="@+id/nav_baseball"
+                android:icon="@drawable/baseball"
+                android:title="@string/baseball" />
+            <item
+                android:id="@+id/nav_velosport"
+                android:icon="@drawable/bikeist"
+                android:title="@string/velosport" />
+            <item
+                android:id="@+id/nav_boks"
+                android:icon="@drawable/boxingist"
+                android:title="@string/boks" />
+            <item
+                android:id="@+id/nav_golf"
+                android:icon="@drawable/golfball"
+                android:title="@string/golf" />
+            <item
+                android:id="@+id/nav_darts"
+                android:icon="@drawable/dartsi"
+                android:title="@string/darts" />
+            <item
+                android:id="@+id/nav_cibersport"
+                android:icon="@drawable/esports"
+                android:title="@string/cibersport" />
+
+        </menu>
+    </item>
+    <item android:title="@string/Zima">
+        <menu>
+            <item
+                android:id="@+id/nav_hockey"
+                android:icon="@drawable/hockeyyy"
+                android:title="@string/hockey" />
+            <item
+                android:id="@+id/nav_biatlon"
+                android:icon="@drawable/biathlon"
+                android:title="@string/biatlon" />
+
+
+        </menu>
+    </item>
+
+</menu>
